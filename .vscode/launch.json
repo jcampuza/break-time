@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:break-time-port}",
+      "name": "Debug BreakTime",
+      "target": "BreakTime",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug BreakTime"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:break-time-port}",
+      "name": "Release BreakTime",
+      "target": "BreakTime",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release BreakTime"
+    }
+  ]
+}
