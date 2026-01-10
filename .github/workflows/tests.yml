@@ -10,5 +10,8 @@ jobs:
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
+      - uses: swift-actions/setup-swift@v1
+        with:
+          swift-version: "6.2"
       - name: Run Swift tests
         run: swift test -q
