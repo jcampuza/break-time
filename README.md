@@ -6,7 +6,7 @@ It pairs a SwiftUI app with a focused core state machine in `BreakTimeCore`.
 ## Requirements
 
 - macOS 15+
-- Swift 6.1 / Xcode 16+
+- Swift 6.2 / Xcode 16+
 
 ## Development
 
